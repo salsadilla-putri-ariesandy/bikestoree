@@ -1,0 +1,180 @@
+/* booking site css */
+.tittle-bike h2 {
+ text-align: center;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 38px;
+ line-height: 46px;
+ color: #000000;
+ margin-top: 138px;
+}
+.img-number {
+ width: 174px;
+ height: 174px;
+ margin-left: 17px;
+ margin-right: 17px;
+ margin-top: 38px;
+}
+.text-info p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 38px;
+ line-height: 46px;
+ text-align: center;
+ color: #000000;
+ margin-top: 56px;
+}
+.text-1 p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ color: #000000;
+ text-align: center;
+ margin-top: 30px;
+}
+/* hero booking */
+.img-bike {
+ margin-top: 144px;
+ width: 588px;
+ height: 561px;
+}
+.name-bike p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ color: #000000;
+ margin-top: 13px;
+}
+.price-bike p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ text-align: left;
+ color: #000000;
+ margin-top: 13px;
+}
+.line {
+ text-align: center;
+}
+.form-label {
+ margin-top: 50px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ color: #000000;
+}
+.br {
+ width: 555px;
+ height: 84px;
+ font-size: 32px;
+}
+.img-line {
+ margin-top: 50px;
+}
+.img-button {
+ width: 466px;
+ height: 73px;
+ background: #700097;
+ border: 1px solid #000000;
+ border-radius: 10px;
+ margin-left: 420px;
+ margin-top: 61px;
+}
+.cancel-img {
+ width: 466px;
+ height: 73px;
+ background: #ffffff;
+ border: 1px solid #000000;
+ border-radius: 10px;
+ margin-left: 420px;
+ margin-top: 33px;
+}
+/* akhir hero booking */
+
+/* footer detail */
+.footer-booking {
+ margin-top: 100px;
+ padding-top: 50px;
+ background-color: #79c7c9;
+}
+.footer-booking h2 {
+ font-family: 'Poppins';
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: 500;
+ color: black;
+}
+.footer-booking h5 {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+}
+.footer-booking p {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 22px;
+ line-height: 33px;
+}
+.img-footer {
+ width: 70px;
+ padding-right: 10px;
+}
+.footer-booking-detail {
+ margin-top: 50px;
+ background-color: #dcdcdc;
+ text-align: center;
+}
+.footer-booking-detail p {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+ margin-top: 20px;
+}
+.footer-booking-detail a {
+ color: #fcbb3a;
+ text-decoration: none;
+}
+
+/* akhir booking site css */
+.left-teks{
+    margin-top: 132px;
+}
+.img-bank {
+ margin-top: 64px;
+}
+.left-teks p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ /* identical to box height */
+
+ color: #000000;
+}
+.number-bank {
+ margin-top: 64px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+
+ color: #000000;
+}
+.tt{
+    margin-top: 209px;
+}

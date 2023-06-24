@@ -1,0 +1,615 @@
+a {
+ text-decoration: none;
+}
+.navbar-brand {
+ font-family: 'Montserrat';
+ font-weight: 600;
+ font-size: 28px;
+}
+.nav-item {
+ font-family: 'Poppins';
+ font-weight: 600;
+ font-size: 18px;
+ line-height: 27px;
+}
+.nav-item .nav-link.active {
+ font-weight: 600;
+ color: rgb(143, 143, 14);
+}
+.nav-link {
+ color: black;
+}
+.nav-link:hover {
+ color: rgb(143, 143, 14);
+}
+/* hero section */
+.new h1 {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 49px;
+margin-top: 123px;
+ color: #000000;
+}
+.hero-section p {
+ font-family: 'Poppins';
+ font-size: 20px;
+ font-weight: 400;
+}
+.hero-section .btnn {
+ margin-top: 80px;
+}
+.hero-section img {
+ width: 700px;
+ border-radius: 10%;
+}
+.hero-section .btnn img {
+ width: 38px;
+}
+.hero-section .btn {
+ border-radius: 0px 16px 18px 0px;
+ margin-left: 15px;
+}
+/* akhir hero section */
+.section-title {
+ border-bottom: 3px solid #fcbb3a;
+ width: 5%;
+}
+/* trend categories */
+.tag {
+ z-index: 3;
+ background-color: #fcbb3a;
+ padding: 0.25rem 1.25rem;
+ position: absolute;
+ bottom: auto;
+ left: auto;
+ border-radius: 20px 0px;
+ min-height: 30px;
+}
+.tag span {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ font-weight: 600;
+ color: black;
+}
+.tag1 {
+ z-index: 3;
+ background-color: #fcbb3a;
+ padding: 0.25rem 1.25rem;
+ position: absolute;
+ bottom: auto;
+ left: auto;
+ border-radius: 20px 0px;
+ min-height: 30px;
+}
+.tag1 span {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ font-weight: 600;
+ color: black;
+}
+.tag2 {
+ z-index: 3;
+ background-color: #fcbb3a;
+ padding: 0.25rem 1.25rem;
+ position: absolute;
+ bottom: auto;
+ left: auto;
+ border-radius: 20px 0px;
+ min-height: 30px;
+}
+.tag2 span {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ font-weight: 600;
+ color: black;
+}
+.tag3 {
+ z-index: 3;
+ background-color: #fcbb3a;
+ padding: 0.25rem 1.25rem;
+ position: absolute;
+ bottom: auto;
+ left: auto;
+ border-radius: 20px 0px;
+ min-height: 30px;
+}
+.tag3 span {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ font-weight: 600;
+ color: black;
+}
+.categories-tumbnail {
+ width: 100%;
+ height: 462px;
+ overflow: hidden;
+ border-radius: 20px;
+ position: relative;
+}
+.categories-tumbnail-small {
+ width: 100%;
+ height: 215px;
+ overflow: hidden;
+ border-radius: 20px;
+ position: relative;
+}
+.categories-tumbnail:hover .categories-img {
+ transform: scale(1.1);
+}
+.categories-tumbnail-small:hover .categories-img {
+ transform: scale(1.1);
+}
+.categories-img {
+ width: 100%;
+ height: 100%;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no;
+ transition: all 0, 3s case;
+}
+.componen-categories {
+ margin-bottom: 32px;
+}
+/* akhir trend categories */
+
+/* popular produck */
+.popular-product {
+ background-color: rgb(23, 25, 56, 0.06);
+}
+.component-product {
+ background-color: #ffffff;
+ margin-top: 50px;
+ margin-bottom: 36px;
+ border-radius: 8px;
+ border: #000000;
+ padding-bottom: 15px;
+ transition: all 0, 2s ease-in-out;
+}
+.product-img {
+ padding: 0.05rem;
+ border-radius: 8px 8px;
+ background: #f6f4fd;
+ transition: all 0.3s ease;
+}
+.product-text {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ font-weight: 600;
+ color: black;
+ text-align: center;
+}
+.product-price {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ font-weight: 600;
+ color: gold;
+ text-align: center;
+}
+.component-product:hover {
+ text-decoration: none;
+ transform: scale(1.1);
+}
+/* akhir popular produck */
+
+/* testimonial */
+.testimoni {
+ padding-top: 22px;
+ padding-bottom: 22px;
+}
+.testimonial-img {
+ z-index: 1;
+ position: absolute;
+ margin: 30px 0px 0px 30px;
+ width: 365px;
+ height: 500px;
+}
+.testimonial-frame {
+ width: 365px;
+ height: 500px;
+}
+.stars-img {
+ width: 250px;
+}
+.testimonial-text {
+ margin-top: 8px;
+ margin-bottom: 8px;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 32px;
+ font-weight: 400;
+ line-height: 48px;
+ color: black;
+}
+.testimonial-name {
+ margin-top: 8px;
+ margin-bottom: 8px;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 18px;
+ font-weight: 300;
+ line-height: 27px;
+ color: #b0b0b0b0;
+}
+.btn-testimonial {
+ background: #fcbb3a;
+ transition: all 0.3s ease;
+ width: 150px;
+ height: 38px;
+ font-family: 'Poppins';
+ font-style: normal;
+ color: black;
+}
+.btn-testimonial:hover {
+ box-shadow: 0px 18px 15px rgb(56, 56, 55);
+ background: #fcbb3a;
+ border-radius: 4px;
+ transform: scale(1.1);
+}
+/* akhir testimonial */
+
+/* FOOTER */
+.footer {
+ margin-top: 100px;
+ padding-top: 50px;
+
+ background-color: #f5f4f5;
+}
+.footer h2 {
+ font-family: 'Poppins';
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: 500;
+ color: black;
+}
+.footer h5 {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+}
+.footer p {
+ font-family: 'Poppins';
+ font-size: 16px;
+ font-weight: 300;
+ color: #b0b0b0b0;
+ margin-bottom: 100px;
+}
+.img-footer {
+ width: 70px;
+ padding-right: 10px;
+}
+.footer-small {
+ background-color: #171938;
+ text-align: center;
+}
+.footer-small p {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: #ffffff;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.footer-small a {
+ color: #fcbb3a;
+ text-decoration: none;
+}
+/* AKHIR FOOTER */
+
+/* home / detail */
+.home-tittle {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 30px;
+ margin-top: 50px;
+}
+.img-detail-small {
+ margin-bottom: 17px;
+ width: 100%;
+ height: 100%;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no;
+}
+.img-detail- {
+ width: 100%;
+ height: 100%;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no;
+}
+/* akhir home / detail */
+
+/* ABOUT BIKE */
+.about-bike {
+ margin-bottom: 100px;
+}
+.btn-order {
+ position: absolute;
+ width: 312px;
+ height: 56px;
+ background: #700097;
+ border-radius: 9px;
+ margin-left: 45px;
+ margin-top: 100px;
+ color: white;
+ transition: all 0.3s ease;
+}
+.btn:hover {
+ background: #700097;
+ color: white;
+ transform: scale(1.1);
+}
+.text-booking p {
+ padding-left: 45px;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 36px;
+ /* identical to box height */
+ color: #000000;
+}
+.product-price-about {
+ padding-left: 45px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 28px;
+ line-height: 34px;
+}
+.text-collor {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 30px;
+ /* identical to box height */
+ color: #000000;
+ margin-top: 10px;
+}
+.form-select {
+ margin-left: 45px;
+ position: absolute;
+ width: 312px;
+ height: 84px;
+}
+.text-size {
+ margin-top: 100px;
+}
+.text p {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 30px;
+}
+.similiar-product-back {
+ background-color: rgb(23, 25, 56, 0.06);
+ margin-bottom: 100px;
+}
+.similiar-product:hover {
+ text-decoration: none;
+ transform: scale(1.1);
+}
+.similiar-product {
+ background-color: #ffffff;
+ margin-top: 50px;
+ margin-bottom: 36px;
+ border-radius: 8px;
+ border: #000000;
+ padding-bottom: 15px;
+ transition: all 0, 2s ease-in-out;
+}
+/* AKHIR ABOUT BIKE */
+
+/* footer detail */
+.footer-detail {
+ margin-top: 100px;
+ padding-top: 50px;
+ background-color: #f5f4f5;
+}
+.footer-detail h2 {
+ font-family: 'Poppins';
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: 500;
+ color: black;
+}
+.footer-detail h5 {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+}
+.footer-detail p {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 22px;
+ line-height: 33px;
+}
+.img-footer {
+ width: 70px;
+ padding-right: 10px;
+}
+.footer-small-detail {
+ background-color: #171938;
+ text-align: center;
+}
+.footer-small-detail p {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: #ffffff;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.footer-small-detail a {
+ color: #fcbb3a;
+ text-decoration: none;
+}
+
+/* akhir footer detail */
+
+/* booking site css */
+.tittle-bike h2 {
+ text-align: center;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 38px;
+ line-height: 46px;
+ color: #000000;
+ margin-top: 138px;
+}
+.img-number {
+ width: 174px;
+ height: 174px;
+ margin-left: 17px;
+ margin-right: 17px;
+ margin-top: 38px;
+}
+.text-info p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 38px;
+ line-height: 46px;
+ text-align: center;
+ color: #000000;
+ margin-top: 56px;
+}
+.text-1 p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ color: #000000;
+ text-align: center;
+ margin-top: 30px;
+}
+/* hero booking */
+.img-bike {
+ margin-top: 144px;
+ width: 588px;
+ height: 561px;
+}
+.name-bike p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ color: #000000;
+ margin-top: 13px;
+}
+.price-bike p {
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ text-align: left;
+ color: #000000;
+ margin-top: 13px;
+}
+.line {
+ text-align: center;
+}
+.form-label {
+ margin-top: 50px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 39px;
+ color: #000000;
+}
+.br {
+ width: 555px;
+ height: 84px;
+ font-size: 32px;
+}
+.img-line {
+ margin-top: 50px;
+}
+.img-button {
+ width: 466px;
+ height: 73px;
+ background: #700097;
+ border: 1px solid #000000;
+ border-radius: 10px;
+ margin-left: 420px;
+ margin-top: 61px;
+}
+.cancel-img {
+ width: 466px;
+ height: 73px;
+ background: #ffffff;
+ border: 1px solid #000000;
+ border-radius: 10px;
+ margin-left: 420px;
+ margin-top: 33px;
+}
+/* akhir hero booking */
+
+/* footer detail */
+.footer-booking {
+ margin-top: 100px;
+ padding-top: 50px;
+ background-color: #79c7c9;
+}
+.footer-booking h2 {
+ font-family: 'Poppins';
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: 500;
+ color: black;
+}
+.footer-booking h5 {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+}
+.footer-booking p {
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 22px;
+ line-height: 33px;
+}
+.img-footer {
+ width: 70px;
+ padding-right: 10px;
+}
+.footer-booking-detail {
+ margin-top: 50px;
+ background-color: #dcdcdc;
+ text-align: center;
+}
+.footer-booking-detail p {
+ font-family: 'Poppins';
+ font-size: 18px;
+ font-weight: 500;
+ color: black;
+ margin-top: 20px;
+}
+.footer-booking-detail a {
+ color: #fcbb3a;
+ text-decoration: none;
+}
+
+/* akhir booking site css */
